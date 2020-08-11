@@ -11,7 +11,9 @@ public class Employee {
     private double score;
     public Employee() {
     }
+    public void show(){
 
+    }
     public Employee(int id, String name, Date birthday, String postion, double compensation, double score) {
         this.id = id;
         this.name = name;
